@@ -1,8 +1,10 @@
 # 15数码（15-puzzle）
+- 姓名：Yang Miao
 - 操作系统：macOS Big Sur 11.6
 - 编译语言：python 3.8.8 64-bit（packages needed: numpy、collections、sortedcontainers）
 
-
+## Honor Code
+除`search_without_info`和`search_with_info`的函数定义，启发函数的定义外，主程序的运行外，其余变量定义内容（包括utils.py和problem.py中的内容皆来自助教Jiang Lan）
 
 ## 1. 问题介绍及作业要求
 
@@ -19,7 +21,9 @@
 ## 2. 无信息搜索（盲目搜索）：宽度优先算法（BFS）
 
 对于无信息搜索方法，我们选择实现宽度优先搜索，其伪代码为：
+
 ![USCBO1yQtdnDF5V](https://i.loli.net/2021/10/06/USCBO1yQtdnDF5V.jpg)
+
 根据伪代码，写出的python代码实现为：
 
 ```python
